@@ -1,0 +1,17 @@
+# This file redirects Netlify to the porto subdirectory
+# The actual configuration is in porto/netlify.toml
+#
+# IMPORTANT: You still need to set the Base directory to "porto" in Netlify UI:
+# Site settings > Build & deploy > Build settings > Base directory = "porto"
+
+[build]
+  base = "porto"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Note: This root-level config is just a pointer
+# The main configuration with plugins and headers is in porto/netlify.toml
+# Netlify will use the config from the base directory (porto/netlify.toml)
+
