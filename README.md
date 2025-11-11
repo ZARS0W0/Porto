@@ -236,4 +236,4 @@ If you like this project, please give it a ⭐ star on GitHub!
 
 **Made with ❤️ by ZARS0W0 (Tayef)**
 
-*Last updated: November 2024*
+
