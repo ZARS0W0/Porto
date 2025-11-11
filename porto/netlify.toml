@@ -1,10 +1,16 @@
 [build]
   command = "npm run build"
+  # Publish directory: Set to .next (Next.js build output)
+  # When base directory is "porto", this resolves to "porto/.next"
+  # This is different from the base directory, avoiding the conflict
+  # The @netlify/plugin-nextjs plugin will handle Next.js-specific features
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
 
 # Netlify Next.js plugin - required for proper Next.js routing on Netlify
+# This plugin automatically handles the publish directory and Next.js routing
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
