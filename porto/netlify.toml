@@ -1,16 +1,12 @@
 [build]
   command = "npm run build"
-  # Publish directory is automatically handled by Netlify's Next.js runtime
 
 [build.environment]
   NODE_VERSION = "18"
 
-# Netlify automatically detects Next.js and uses the appropriate runtime
-# For enhanced Next.js features, install @netlify/plugin-nextjs:
-# npm install -D @netlify/plugin-nextjs
-# Then uncomment the plugin section below:
-# [[plugins]]
-#   package = "@netlify/plugin-nextjs"
+# Netlify Next.js plugin - required for proper Next.js routing on Netlify
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 # Cache static assets for optimal performance
 [[headers]]
