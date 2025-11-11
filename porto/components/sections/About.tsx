@@ -46,7 +46,7 @@ export function About() {
             About Me
           </h2>
           <p className="text-neutral-400 dark:text-neutral-400 text-neutral-600 text-base md:text-lg max-w-3xl mx-auto leading-relaxed transition-colors duration-500">
-            I'm a versatile developer with a passion for creating impactful solutions. 
+            I&apos;m a versatile developer with a passion for creating impactful solutions. 
             My journey spans from web development to embedded systems, allowing me to 
             approach problems from multiple perspectives and deliver comprehensive solutions.
           </p>

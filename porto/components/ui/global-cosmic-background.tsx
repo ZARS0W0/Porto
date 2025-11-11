@@ -405,6 +405,7 @@ void main(){gl_Position=position;}`;
         rendererRef.current.reset();
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [targetTheme, setTargetTheme] = useState<{ intensity: number; color: [number, number, number]; speed: number } | null>(null);

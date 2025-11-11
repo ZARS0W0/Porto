@@ -48,10 +48,10 @@ export function Contact() {
           className="text-center mb-16"
         >
           <h2 className="heading-unified text-4xl md:text-5xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-neutral-200 via-neutral-100 to-white dark:from-neutral-200 dark:via-neutral-100 dark:to-white from-neutral-800 via-neutral-700 to-neutral-900 transition-all duration-500">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-neutral-400 dark:text-neutral-400 text-neutral-600 text-base md:text-lg max-w-2xl mx-auto transition-colors duration-500">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           </p>
         </motion.div>
 
